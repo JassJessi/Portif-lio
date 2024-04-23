@@ -21,6 +21,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+<!--Conectando o CSS com o HTML-->
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+
 </head>
 <body>
     <header class="cabecalho">
@@ -40,11 +44,12 @@
         <div class="informacoes"> 
             <!--Os textos abaixo foram utilizados como baseos mostrados nas videoaulas do minicurso -->
             <h1>Olá! Sou Jéssica Soares</h1>
-            <p>Uma desenvolvedora frontend em formação apaixonada por tecnologia</p>
+            <p>Uma desenvolvedora frontend em formação apaixonada por tecnologia e uma Social Media sempre atenada nas novidades das midias.
+            </p>
             <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de compartilhar meus conhecimentos.💻​​😁​ </p>
             <p>Ah, também sou fã de animes, séries, filmes e tmabém de alguns jogos.💜​</p>
 
-            <ul> <!--Adicionando links para contato-->
+            <ul class="redes-sociais"> <!--Adicionando links para contato-->
                 <li>
                     <a href="https://www.linkedin.com/in/j%C3%A9ssica-soares-9a79181b0/" title="Ir para o Linkedin" target="_blank"> 
                         <i class="fab fa-linkedin-in"></i>
@@ -112,6 +117,20 @@
             <div class="projeto ativo">
                 <a href="https://github.com/JassJessi/Site_store_animes.git" target="_blank">
                     <img src="./src/imagens/projeto-one-piece.png" alt="Projeto Landing page GTA">
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>​🖱️​Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img 
+                        src="https://via.placeholder.com/515X700" 
+                        alt="Capa do Projeto"
+                    />
                     <h3>Projeto 4</h3>
                     <div class="informacoes-projeto">
                         <p>Projeto feito usando HTML, CSS e JavaScript</p>
